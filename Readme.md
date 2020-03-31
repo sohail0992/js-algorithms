@@ -1,0 +1,7 @@
+- Install mocha gloabllay `npm install mocha -g`.
+- Run `npm install`.
+- Open the directory with problem name.
+- Every directory has a
+  - test.js file with test cases. You can add custom test to testSamples in specified format.
+  - problem-name-solution.js file with solution.
+- Run mocha in problem to test the solution.
