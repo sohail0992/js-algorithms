@@ -1,4 +1,4 @@
-var fibnnacciSumSeries = require('./fibonacci-sum');
+var fibnnacciSumSeries = require('./fibnocci-sum-3');
 var expect = require('chai').expect;
 var assert = require('assert');
 
@@ -11,6 +11,10 @@ let testSamples = [
   {
     N: 7,
     output: [-1, -1, -1, 4, -1, 6, 7]
+  },
+  {
+    N: 5,
+    output: [-1, -1, -1, 4, -1]
   }
 ];
 

@@ -12,8 +12,6 @@ the output should look like -1 -1 -1 4 -1 6 7 -1 9 10 ... etc
 ## Example
 
 ```
-Given nums = [2, 7, 11, 15], target = 9,
-Because nums[0] + nums[1] = 2 + 7 = 9,
-return [0, 1].
+Given N = 7, arr will be [1,2,3,4,5,6,7] and output  [-1, -1, -1, 4, -1, 6, 7]
 ```
 
