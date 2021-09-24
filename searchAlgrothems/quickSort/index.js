@@ -1,11 +1,5 @@
 // O (n 2) worst case
 
-function swap(a ,b) {
-    const temp = a;
-    a = b;
-    b = temp;
-}
-
 function partition(arr, first, last) {
     const pivot = first;
     let lowerIndex = first + 1;
