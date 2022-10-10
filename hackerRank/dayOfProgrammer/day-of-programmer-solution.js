@@ -13,13 +13,14 @@ function getDays(year) {
     } else {
         firstEightMonths.push(28);
     }
-    return firstEightMonths.reduce((a, b) => a + b);
+    const sum = firstEightMonths.reduce((a, b) => a + b);
+    return year === 1918 ? (sum - 13) : sum;
 }
 
 function isLeapYear(year) {
     // isLeap year
     if (year > 1919) {
-        return year % 400 === 0 || (year % 4 === 0 && year % 1000 !== 0);
+        return year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0);
     } else {
         return year % 4 === 0;
     }

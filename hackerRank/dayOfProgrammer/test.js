@@ -10,6 +10,18 @@ let testSamples = [
   {
     Input: 1800,
     output: '12.09.1800'
+  },
+  {
+    Input: 2100,
+    output: '13.09.2100'
+  },
+  {
+    Input: 2700,
+    output: '13.09.2700'
+  },
+  {
+    Input: 1918,
+    output: '26.09.1918'
   }
 ];
 
